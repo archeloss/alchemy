@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'aberration_demoregular';
+    src: url(hopeless/HopelessDemo-WyOE4.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+p {
+    font-family: aberration_demoregular;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: auto;
+    margin: auto;
+}
