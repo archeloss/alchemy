@@ -5,7 +5,17 @@
     font-weight: 100;
 }
 
-p {
+body{
+
+    background-color: black;
+
+}
+
+a{
+    transition: 0.5s;
+}
+
+a {
     font-family: aberration_demoregular;
     font-size: 100px;
     position: absolute;
@@ -15,4 +25,16 @@ p {
     height: auto;
     width: auto;
     margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-size: 120px;
+    text-shadow:0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 30px black, 
+                0 0 40px black, 
+                0 0 50px black,
+                0 0 60px black; 
 }
